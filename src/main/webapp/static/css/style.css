@@ -946,3 +946,489 @@ body::before {
         height: 250px;
     }
 }
+
+/* ============================================
+   Additional Styles for New Pages
+   ============================================ */
+
+/* --- CSS Alias Fixes --- */
+:root {
+    --surface: var(--bg-card);
+    --surface-elevated: rgba(255,255,255,0.05);
+    --border: var(--border-color);
+}
+
+/* --- Search Filter Bar (Movies Page) --- */
+.search-filter-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 1.2rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+}
+
+/* --- Movie Card Actions --- */
+.movie-card-actions .btn-primary-custom {
+    font-size: 0.85rem;
+    padding: 0.45rem 1rem;
+}
+
+/* --- Movie Detail Card --- */
+.movie-detail-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    margin-bottom: 2rem;
+}
+
+.movie-detail-poster {
+    height: 100%;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgba(255,255,255,0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.poster-gradient-large {
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgba(255,255,255,0.10);
+    user-select: none;
+}
+
+.genre-badge-lg {
+    display: inline-block;
+    background: rgba(108, 99, 255, 0.2);
+    border: 1px solid rgba(108, 99, 255, 0.4);
+    color: var(--primary-light);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.genre-badge-sm {
+    display: inline-block;
+    background: rgba(108, 99, 255, 0.15);
+    border: 1px solid rgba(108, 99, 255, 0.3);
+    color: var(--primary-light);
+    padding: 0.2rem 0.6rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.detail-title {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    margin-bottom: 0.3rem;
+}
+
+.detail-meta {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.rental-price-badge {
+    background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0.4rem 1.2rem;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.rating-summary {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.stars-lg .bi-star-fill { color: var(--warning); font-size: 1.2rem; }
+.stars-lg .bi-star { color: var(--text-muted); font-size: 1.2rem; }
+.stars-sm .bi-star-fill { color: var(--warning); font-size: 0.78rem; }
+.stars-sm .bi-star { color: var(--text-muted); font-size: 0.78rem; }
+
+.rating-score {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--warning);
+}
+
+.rating-count {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* --- Danger Button --- */
+.btn-danger-custom {
+    background: rgba(255, 107, 107, 0.15);
+    border: 1px solid rgba(255, 107, 107, 0.4);
+    color: var(--accent);
+    font-weight: 600;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    transition: var(--transition);
+}
+
+.btn-danger-custom:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* --- Review Form Card --- */
+.review-form-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.8rem;
+}
+
+.star-picker {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.star-pick {
+    font-size: 1.6rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.star-pick.active,
+.star-pick:hover {
+    color: var(--warning);
+    transform: scale(1.15);
+}
+
+/* --- Review Comment --- */
+.review-author { font-weight: 600; color: var(--primary-light); font-size: 0.9rem; }
+.review-user-id { color: var(--primary-light); }
+.review-comment { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin: 0; }
+
+/* --- Sidebar Card --- */
+.sidebar-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+}
+
+.sidebar-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.info-table { width: 100%; border-collapse: collapse; }
+.info-table tr td {
+    padding: 0.5rem 0.3rem;
+    font-size: 0.88rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    color: var(--text-secondary);
+    vertical-align: middle;
+}
+.info-table tr:last-child td { border-bottom: none; }
+.info-label { color: var(--text-muted); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; width: 40%; }
+.price-highlight { color: var(--accent); font-weight: 700; }
+
+/* --- Badge Count --- */
+.badge-count {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.1rem 0.5rem;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+/* --- Status Badges --- */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3rem 0.9rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.status-active {
+    background: rgba(45, 212, 191, 0.15);
+    color: var(--success);
+    border: 1px solid rgba(45, 212, 191, 0.3);
+}
+
+.status-returned {
+    background: rgba(136, 136, 160, 0.12);
+    color: var(--text-secondary);
+    border: 1px solid rgba(136, 136, 160, 0.25);
+}
+
+.role-admin {
+    background: rgba(251, 191, 36, 0.15);
+    color: var(--warning);
+    border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.role-user {
+    background: rgba(108, 99, 255, 0.15);
+    color: var(--primary-light);
+    border: 1px solid rgba(108, 99, 255, 0.3);
+}
+
+/* --- Stat Cards --- */
+.stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    border-color: var(--border-glow);
+    transform: translateY(-3px);
+}
+
+.stat-icon {
+    font-size: 1.8rem;
+    color: var(--primary-light);
+    width: 48px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+/* --- Rental Row --- */
+.rentals-list { display: flex; flex-direction: column; gap: 0.75rem; }
+
+.rental-row {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    transition: var(--transition);
+    flex-wrap: wrap;
+}
+
+.rental-row:hover {
+    border-color: var(--border-glow);
+    transform: translateX(4px);
+}
+
+.rental-poster-mini {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: rgba(255,255,255,0.12);
+    flex-shrink: 0;
+}
+
+.rental-movie-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.rental-movie-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.rental-movie-title a:hover { color: var(--primary-light); }
+
+.rental-meta { font-size: 0.82rem; color: var(--text-secondary); }
+
+.rental-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+/* --- Profile Page --- */
+.profile-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    text-align: center;
+}
+
+.profile-avatar {
+    font-size: 4rem;
+    color: var(--primary-light);
+    margin-bottom: 1rem;
+}
+
+.profile-name { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 0.2rem; }
+.profile-email { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.8rem; }
+
+.profile-role-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 1rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.profile-id-tag {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-family: monospace;
+}
+
+.edit-profile-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+}
+
+.profile-input {
+    background: rgba(255,255,255,0.04) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: var(--radius) !important;
+    color: var(--text-primary) !important;
+    font-family: var(--font-main) !important;
+    padding: 0.75rem 1rem !important;
+    transition: var(--transition) !important;
+}
+
+.profile-input:focus {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.15) !important;
+    background: rgba(255,255,255,0.06) !important;
+    outline: none !important;
+}
+
+.quick-links-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+}
+
+/* --- Admin Table --- */
+.admin-table-wrapper {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--text-primary);
+}
+
+.admin-table thead tr {
+    background: rgba(108, 99, 255, 0.1);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.admin-table thead th {
+    padding: 1rem 1.2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.admin-table tbody td {
+    padding: 0.9rem 1.2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.admin-table tbody tr:last-child td { border-bottom: none; }
+
+.admin-table tbody tr:hover {
+    background: rgba(108, 99, 255, 0.05);
+}
+
+.user-avatar-mini {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* --- Form Controls (generic dark) --- */
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(108,99,255,0.15);
+}
+
+.form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(108,99,255,0.15);
+}
+
+/* Input group button fix */
+.input-group .btn-outline-custom {
+    border-radius: 0 var(--radius) var(--radius) 0;
+    border-left: none;
+}
+
