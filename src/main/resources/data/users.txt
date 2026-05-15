@@ -1,3 +1,0 @@
-U001|Admin|admin@movieplatform.com|admin123|ADMIN
-U002|John Silva|john@email.com|password123|USER
-U003|Jane Doe|jane@email.com|password456|USER

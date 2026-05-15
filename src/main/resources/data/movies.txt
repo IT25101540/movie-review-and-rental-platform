@@ -1,6 +1,0 @@
-M001|Inception|Sci-Fi|Christopher Nolan|2010|3.99
-M002|The Godfather|Crime|Francis Ford Coppola|1972|2.99
-M003|The Dark Knight|Action|Christopher Nolan|2008|3.49
-M004|Pulp Fiction|Crime|Quentin Tarantino|1994|2.99
-M005|Interstellar|Sci-Fi|Christopher Nolan|2014|4.49
-M006|The Shawshank Redemption|Drama|Frank Darabont|1994|2.49
