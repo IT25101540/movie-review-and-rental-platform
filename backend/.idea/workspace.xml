@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69f5fab5-20bb-422c-9645-0ed13f0f1859" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3DAcqQqwqwz74h1W85TGpDnJpce" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.movie-platform-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.movie-platform-api [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.movie-platform-api [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.movie-platform-api [org.springframework.boot:spring-boot-maven-plugin:3.2.0:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.movie-platform-api [org.springframework.boot:spring-boot-maven-plugin:3.2.0:repackage].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.movie-platform-api [org.springframework.boot:spring-boot-maven-plugin:3.2.0:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.movie-platform-api [org.springframework.boot:spring-boot-maven-plugin:3.2.0:start].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MoviePlatformApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Thevindu/Edits/Personal/SLIIT/2nd Sem/OOP/Project/soa-cinevault/soa-project/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="MoviePlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="movie-platform-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.movieplatform.MoviePlatformApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Physical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69f5fab5-20bb-422c-9645-0ed13f0f1859" name="Changes" comment="" />
+      <created>1777728505373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777728505373</updated>
+      <workItem from="1777728506672" duration="300000" />
+      <workItem from="1777730677367" duration="712000" />
+      <workItem from="1777872299361" duration="42000" />
+      <workItem from="1778127583279" duration="653000" />
+      <workItem from="1778133071966" duration="1420000" />
+      <workItem from="1778167994948" duration="596000" />
+      <workItem from="1778251262283" duration="894000" />
+      <workItem from="1778343321910" duration="592000" />
+      <workItem from="1778518652556" duration="1226000" />
+      <workItem from="1778562530885" duration="8000" />
+      <workItem from="1778563757417" duration="17712000" />
+      <workItem from="1778731321262" duration="16221000" />
+      <workItem from="1778820716862" duration="1928000" />
+      <workItem from="1778827344454" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
